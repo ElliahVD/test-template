@@ -9205,12 +9205,9 @@ var FullCalendar = (function (exports) {
                 maxHeight: sectionConfig.maxHeight,
                 liquid: isLiquid,
                 liquidIsAbsolute,
-            }), // because its within a harness
-                : true
-        }, content
-    ))))
-        ;
-    };
+            })))); // because its within a harness
+        }, content;
+    });
     SimpleScrollGrid.prototype._handleScrollerEl = function (scrollerEl, key) {
         var section = getSectionByKey(this.props.sections, key);
         if (section) {
@@ -15208,10 +15205,3 @@ exports.whenTransitionDone = whenTransitionDone;
 exports.wholeDivideDurations = wholeDivideDurations;
 
 Object.defineProperty(exports, '__esModule', {value: true});
-
-return exports;
-
-}
-({})
-)
-;
