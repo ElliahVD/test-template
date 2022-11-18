@@ -20,7 +20,7 @@ Author: GrayGrids
     Sticky
     ======================================= */
     window.onscroll = function () {
-        var header_navbar = document.querySelector(".navbar-area");
+        var header_navbar = document.querySelector("#accueil.navbar-area");
         var sticky = header_navbar.offsetTop;
 
         var logo = document.querySelector('.navbar-brand img')
